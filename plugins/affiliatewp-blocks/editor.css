@@ -1,0 +1,52 @@
+.affwp-form label + input,
+.affwp-form label + textarea {
+	width: 100%;
+}
+
+.wp-block-affiliatewp-affiliate-content .components-notice.is-info .components-notice__content,
+.wp-block-affiliatewp-non-affiliate-content .components-notice.is-info .components-notice__content {
+	display: flex;
+}
+
+.wp-block-affiliatewp-affiliate-content .components-notice.is-info .components-notice__content svg,
+.wp-block-affiliatewp-non-affiliate-content .components-notice.is-info .components-notice__content svg {
+	margin-right: 8px;
+}
+
+.affwp-creative pre {
+	background-color: transparent;
+	background-color: rgba( 0, 0, 0, 0.01 );
+	border: 1px solid #eaeaea;
+	border: 1px solid rgba( 51, 51, 51, 0.1 );
+	line-height: 1.5;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1em;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.affwp-creative pre,
+.affwp-creative code {
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+.affwp-creative {
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eaeaea;
+	border-bottom: 1px solid rgba( 51, 51, 51, 0.1 );
+}
+
+.affwp-creative:last-of-type {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.affwp-block-inspector-notice {
+	margin-bottom: 15px;
+}
